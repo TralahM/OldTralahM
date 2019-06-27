@@ -220,12 +220,14 @@ POSTS = (
     ("posts/*.md", "posts", "post.tmpl"),
     ("posts/*.txt", "posts", "post.tmpl"),
     ("posts/*.html", "posts", "post.tmpl"),
+    ("posts/*.org", "posts", "post.tmpl"),
 )
 PAGES = (
     ("pages/*.rst", "pages", "page.tmpl"),
     ("pages/*.md", "pages", "page.tmpl"),
     ("pages/*.txt", "pages", "page.tmpl"),
     ("pages/*.html", "pages", "page.tmpl"),
+    ("stories/*.org", "stories", "story.tmpl"),
 )
 
 
@@ -304,6 +306,7 @@ COMPILERS = {
     # with many of the others.
     # "pandoc": ('.rst', '.md', '.txt'),
 }
+COMPILERS["orgmode"] = ('.org',)
 
 # Create by default posts in one file format?
 # Set to False for two-file posts, with separate metadata.
@@ -1070,7 +1073,8 @@ PRETTY_URLS = True
 #       with the MarkdownExtension class and should not be added here.
 # Defaults are markdown.extensions.(fenced_code|codehilite|extra)
 # markdown.extensions.meta is required for Markdown metadata.
-MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.codehilite', 'markdown.extensions.extra']
+MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code',
+                       'markdown.extensions.codehilite', 'markdown.extensions.extra']
 
 # Options to be passed to markdown extensions (See https://python-markdown.github.io/reference/)
 # Default is {} (no config at all)
