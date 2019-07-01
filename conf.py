@@ -17,7 +17,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "TralahM"  # (translatable)
-BLOG_TITLE = "Tralah M Brian"  # (translatable)
+BLOG_TITLE = "____________"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://tralahm.github.io/"
@@ -152,7 +152,7 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bootblog4"
+THEME = "material-theme"
 
 # Primary color of your theme. This will be used to customize your theme.
 # Must be a HEX value.
@@ -310,7 +310,7 @@ COMPILERS["orgmode"] = ('.org',)
 
 # Create by default posts in one file format?
 # Set to False for two-file posts, with separate metadata.
-# ONE_FILE_POSTS = True
+ONE_FILE_POSTS = False
 
 # Preferred metadata format for new posts
 # "Nikola": reST comments, wrapped in a HTML comment if needed (default)
@@ -337,7 +337,7 @@ COMPILERS["orgmode"] = ('.org',)
 # Nikola supports logo display.  If you have one, you can put the URL here.
 # Final output is <img src="LOGO_URL" id="logo" alt="BLOG_TITLE">.
 # The URL may be relative to the site root.
-# LOGO_URL = ''
+LOGO_URL = '/images/logo.svg'
 
 # If you want to hide the title of your website (for example, if your logo
 # already contains the text), set this to False.
@@ -636,7 +636,7 @@ REDIRECTIONS = []
 # For more details, read the manual:
 # https://getnikola.com/handbook.html#deploying-to-github
 # You will need to configure the deployment branch on GitHub.
-GITHUB_SOURCE_BRANCH = 'src'
+GITHUB_SOURCE_BRANCH = 'sources'
 GITHUB_DEPLOY_BRANCH = 'master'
 
 # The name of the remote where you wish to push to, using github_deploy.
@@ -1339,9 +1339,52 @@ WARN_ABOUT_TAG_METADATA = False
 
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
-GLOBAL_CONTEXT = {}
-
+# GLOBAL_CONTEXT = {}
+BIOGRAPHY = """
+<img class="img-circle"style="float:left;margin:10px 20px 10px 0px;max-height:200px;"src="/images/avatar.jpg">
+<p>Tralah M Brian (African Male, October 2000), Data Scientist, Mathematician, Technical Writer, Recondite Scholar,Programmer,
+Computerphile, Systems Administrator, Public Orator, Pan-African, Son of Man, Sarcastic, Leader and Influencer.</p>
+"""
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be
 # rendered
 GLOBAL_CONTEXT_FILLER = []
+GLOBAL_CONTEXT = {
+    "header_color": "info",
+    "author_avatar": "/images/avatar.jpg",
+    "biography": BIOGRAPHY,
+    'use_pace': True,
+    "social_links": [
+        {
+            'bgcolor': "#F44336",
+            'icon': "<i class='fa fa-share-square-o'></i>"
+
+        },
+        {
+            "url": "https://twitter.com/TralahM",
+            "bgcolor": "#55ACEE",
+            "color": "#fffff",
+            "icon": "<i class='fa fa-twitter'></i>",
+            "target": "_blank"
+
+        },
+        {
+            "url": "https://github.com/TralahM",
+            "bgcolor": "#666666",
+            "color": "#fffff",
+            "icon": "<i class='fa fa-github-square'></i>",
+            "target": "_blank"
+
+        },
+        {
+            "url": "https://www.linkedin.com/TralahM",
+            "bgcolor": "#3B5998",
+            "color": "#fffff",
+            "icon": "<i class='fa fa-linkedin'></i>",
+            "target": "_blank"
+
+        },
+
+    ]
+
+}
