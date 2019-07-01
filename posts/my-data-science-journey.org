@@ -1,0 +1,69 @@
+#+BEGIN_COMMENT
+.. title: My Data Science Journey
+.. slug: being-a-programmer-in-kenya
+.. date: 2019-06-28 00:03:19 UTC+03:00
+.. tags:
+.. category:
+.. link:
+.. description:
+.. type: text
+
+#+END_COMMENT
+
+
+* What exactly is data science.
+  The definition of data scientist is fairly broad and generally no
+common consensus among the academia community.
+However data science is a field that has emerged from the mathematical
+branch of statistics, computer science and part from economics. It relates
+to the collection, organization, storage, analysis and presentation of data
+using computational tools, mathematical methods and algorithms to produce
+meaningful results, predictions, recommendations, descriptions and explanations about
+the data being examined.
+* What does a data scientist do.
+  Well a Data scientist does some or all of the processes aforementioned depending on
+which part of the data science process the person is tasked with.
+Among data scientists are data analysts whose main role is to study the data at hand and
+draw descriptions and summaries from the data, data engineers who are more concerned with
+how the data at hand is stored, structured and retrieved, machine learning engineers whose
+role is to develop useful models for categorizing or predicting outcomes of future unseen
+similar data like recommender systems, predictive systems, generally developing some useful
+model that can be applied to data to solve some problems; Business Analysts whose role is to
+find how some model or data can be used to affect business processes or change existing or develop new business
+processes.
+There also exists hierarchies in this job where some data scientists are at an entry level under other more
+experienced data scientists who manage teams of data scientist.
+
+What a data scientist does depends on the level and area of focus he or she is at.
+* How i found myself in data science.
+I really do not have a specific time that i can say i began practising data science.
+However i generally loved solving problems and puzzles from early on in my childhood.
+The point at which i would say i began data science was when i was in high school, learning
+basic statistics, then more so after i finished my high school and taught myself how to program in
+python. After picking up some basic skills i found myself interested in hacking, which on further self education i
+realized that hacking generally involved gathering information about a target and performing some analysis then using
+the knowledge gathered to prepare an attack strategy.
+This led me to the Linux operating system which was very handy in gathering information, i was now exposing myself to
+networked environments and dealing with small amounts of network data.
+I realized that it required a more in depth understanding of networks and so i enrolled for a bachelors
+degree in mathematics and computer science at the Jommo Kenyatta university of agriculture and technology.
+
+It was here that i was formally introduced to mathematical and computational thinking which opened my eyes to a
+whole new world. Computer Science is generally about problem solving using computational tools.
+I gained an understanding and appreciation of computational complexity in algorithms, data structutes, data mining, data
+storage and retrieval techniques and their tradeoffs.
+With also a rigorous schooling in mathematics especially in the branches of statistics, linear algebra, calculus and Analytics
+i widened my horizon and perception of data, computation and analytics.
+I was now able to handle large data intensive and complex problems as well as the ability to develop programs and software to
+perform advanced scientific computing and implement machine learning algorithms to a wide variety of problems.
+
+With a formal introduction i was now able to take my skills a notch higher on my own.
+I would collect some real world data and apply my learnt skills and tools to the datasets and develop a useful tool from the data.
+From predicting sports outcomes, to predicting stock prices, house prices, categorizing flowers.
+I would generate visualizations in charts, maps, graphs and simulations using datasets.
+
+Upto now i am still learning and sharpening my skills with emerging technologies and ideas in academic research papers and the process
+never ends as there's no limit.
+
+* So do you need a math or computer science degree to become a data scientist?
+
