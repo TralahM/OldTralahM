@@ -149,3 +149,4 @@
 'render_sources:output/posts/lagrange-interpolation-with-python/index.org', (159232, 294)
 'render_posts:cache/posts/lagrange-interpolation-with-python.html', (171008, 591)
 'render_pages:output/posts/lagrange-interpolation-with-python/index.html', (174080, 4654)
+'latex_formula_renderer', (182272, 56)
