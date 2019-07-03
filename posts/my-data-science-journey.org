@@ -1,8 +1,8 @@
 #+BEGIN_COMMENT
 .. title: My Data Science Journey
-.. slug: being-a-programmer-in-kenya
+.. slug:  my-journey-into-data-science
 .. date: 2019-06-28 00:03:19 UTC+03:00
-.. tags:
+.. tags: data-science, programming,AI, data
 .. category:
 .. link:
 .. description:
@@ -16,25 +16,35 @@
 common consensus among the academia community.
 However data science is a field that has emerged from the mathematical
 branch of statistics, computer science and part from economics. It relates
-to the collection, organization, storage, analysis and presentation of data
+to the 
+- collection, 
+- organization, 
+- storage, 
+- analysis and 
+- presentation of data
 using computational tools, mathematical methods and algorithms to produce
 meaningful results, predictions, recommendations, descriptions and explanations about
 the data being examined.
+#+CAPTION: Data Science Map
+[[../images/data-science-questions.jpg]]
 * What does a data scientist do.
   Well a Data scientist does some or all of the processes aforementioned depending on
 which part of the data science process the person is tasked with.
-Among data scientists are data analysts whose main role is to study the data at hand and
-draw descriptions and summaries from the data, data engineers who are more concerned with
-how the data at hand is stored, structured and retrieved, machine learning engineers whose
-role is to develop useful models for categorizing or predicting outcomes of future unseen
+Among data scientists are
+-  __data analysts__ whose main role is to study the data at hand and draw descriptions and summaries from the data, 
+- __data engineers__ who are more concerned with how the data at hand is stored, structured and retrieved,
+- __machine learning engineers__ whose role is to develop useful models for categorizing or predicting outcomes of future unseen
 similar data like recommender systems, predictive systems, generally developing some useful
-model that can be applied to data to solve some problems; Business Analysts whose role is to
-find how some model or data can be used to affect business processes or change existing or develop new business
+model that can be applied to data to solve some problems, 
+- __Business Analysts__ whose role is to find how some model or data can be used to affect business processes or change existing or develop new business
 processes.
+
 There also exists hierarchies in this job where some data scientists are at an entry level under other more
-experienced data scientists who manage teams of data scientist.
+experienced data scientists who manage teams of data scientists.
 
 What a data scientist does depends on the level and area of focus he or she is at.
+
+
 * How i found myself in data science.
 I really do not have a specific time that i can say i began practising data science.
 However i generally loved solving problems and puzzles from early on in my childhood.
@@ -46,7 +56,7 @@ the knowledge gathered to prepare an attack strategy.
 This led me to the Linux operating system which was very handy in gathering information, i was now exposing myself to
 networked environments and dealing with small amounts of network data.
 I realized that it required a more in depth understanding of networks and so i enrolled for a bachelors
-degree in mathematics and computer science at the Jommo Kenyatta university of agriculture and technology.
+degree in __mathematics and computer science__ at the [[https://jkuat.ac.ke][Jommo Kenyatta University of Agriculture and Technology]].
 
 It was here that i was formally introduced to mathematical and computational thinking which opened my eyes to a
 whole new world. Computer Science is generally about problem solving using computational tools.
@@ -66,4 +76,67 @@ Upto now i am still learning and sharpening my skills with emerging technologies
 never ends as there's no limit.
 
 * So do you need a math or computer science degree to become a data scientist?
+   You can become a data analyst without a college degree. In my experience of 4yrs,
+I have witnessed many people with a master’s degree who failed to make a successful career in Data Science whereas some people without a specialised degree in data science succeed.
+In this modern era if you have the right skills, determination and are passionate, a degree won’t hold a barrier to your dream. 
+That being said a degree would not hurt just to be safe.
 
+I would say if you have the right skills or if you can develop the skills and have passion for Data Science, you can become a Data Scientist.
+
+I can list out few of the skills that are essential to become a Data Scientist.
+** Technical Skills
+   - Math (e.g. linear algebra, calculus and probability)
+   - Statistics (e.g. hypothesis testing and summary statistics)
+   - Machine learning tools and techniques (e.g. k-nearest neighbors, random forests, ensemble methods, etc.)
+   - Software engineering skills (e.g. distributed computing, algorithms and data structures)
+   - Data mining
+   - Data cleaning and munging
+   - Data visualization (e.g. ggplot and d3.js) and reporting techniques
+   - Unstructured data techniques
+   - R and/or SAS languages
+   - SQL databases and database querying languages
+   - Python (most common), C/C++ Java, Perl
+   - Big data platforms like Hadoop, Hive & Pig
+   - Cloud tools like Amazon S3
+** Business Skills
+    - Analytic Problem-Solving: Approaching high-level challenges with a clear eye on what is important; employing the right approach/methods to make the maximum use of time and human resources.
+    - Effective Communication: Detailing your techniques and discoveries to technical and non-technical audiences in a language they can understand.
+    - Intellectual Curiosity: Exploring new territories and finding creative and unusual ways to solve problems.
+    - Industry Knowledge: Understanding the way your chosen industry functions and how data are collected, analyzed and utilized.
+* Actions to Take
+** Acquire Basic skills
+One can start from the basics i.e. normal distribution, central limit theorem, hypothesis testing and then move on to advanced techniques viz. linear regression, logistics regression, decision trees, cluster analysis, generalized additive models, etc.
+A recommended book for this would be __The elements of statistical learning (by Hastie, Tibshirani and Friedman)__.
+
+It is expected that an aspiring data scientist should have some familiarity with various statistics or machine learning methodologies used in the industry.
+
+Apart from the standard textbooks, an alternative but effective way of learning would be going for MOOCs. 
+There are a lot of free statistics/ data mining courses available via [[https://coursera.com][Coursera]], edX, [[https://mitocw.org][MIT open]], Stanford online, NPTEL, etc.
+
+** Learn the Tools of the Trade
+As far as the tools in analytics industry is concerned, SAS and SPSS used to be popular before the open source revolution took the industry by storm. Open source tools like R and Python are the next big thing and it would make sense to invest time on them.
+
+There are enough freely available resources on the web to learn both R and Python. 
+For people with coding skills in object oriented languages like Java will find Python intuitive. But R is the best tool (personal opinion) when it comes to statistical modeling and it is also the preferred tool in academia.
+
+For an absolute beginner, the introductory course in R at Learn R, Python & Data Science Online | DataCamp can be a starting point.
+But the best way to learn these softwares is by doing.
+So I would suggest that one should replicate the codes available and test it on some dummy data sets to understand what`s going on.
+Also, a working knowledge of SQL along with advanced MS Excel / VBA skills can act as a differentiator when one appears for their interview.
+
+Since data science is not only about technical mumbo jumbo so it would be really be helpful if one understands the business applications of it and one is also aware of various successful use cases.
+
+This will help one see the bigger picture and also make one well equipped to understand what kind of methodology fits for a particular business problem.
+
+For example, how market basket analysis is used for product bundling by retailers, how cluster analysis can be used for customer segmentation for a new product launch, how logistic regression can be used for fraud detection in banking/ insurance sector, etc.
+
+** Practice, Go out there
+The last but not the least would be – practice, practice and practice. One way to do it would be by participating in various data science competitions hosted in sites like [[https://kaggle.com][kaggle.com]].
+Even [[https://analyticsvidhya.com][analyticsvidhya]] hosts data science competitions.
+
+But I would suggest to go through some of the past competitions at [[https://kaggle.com][kaggle]] and replicate some of the scripts to understand the modus-operandi.
+The level of competitions at kaggle is high and one can learn how to handle challenging datasets and come up with a solutions.
+
+Also, the discussion on the forums with like-minded data science enthusiasts can be helpful.
+
+Put your work out there and see what others are doing like on github, bitbucket, gitlab and the like. Fear not.
