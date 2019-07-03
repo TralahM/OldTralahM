@@ -6,3 +6,4 @@ output
 _env/
 .*~
 *#*
+posts/*.html*
