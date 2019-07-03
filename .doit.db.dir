@@ -49,7 +49,7 @@
 'copy_assets:output/assets/js/moment-with-locales.min.js', (48640, 437)
 'copy_assets:output/assets/xml/rss.xsl', (49152, 399)
 'sitemap:output/sitemapindex.xml', (49664, 255)
-'sitemap:output/sitemap.xml', (179200, 2714)
+'sitemap:output/sitemap.xml', (179200, 2713)
 'copy_assets:output/assets/css/ipython.min.css', (51712, 414)
 'copy_assets:output/assets/js/gallery.js', (52224, 403)
 'create_bundles:output/assets/js/all-nocdn.js', (84480, 1346)
