@@ -1275,7 +1275,6 @@ USE_CDN = True
 TWITTER_CARD = {
     'use_twitter_cards': True,  # enable Twitter Cards
     'card': 'summary',          # Card type, you can also use 'summary_large_image',
-    see https: // dev.twitter.com/cards/types
     'site': '@tralahtek',         # twitter nick for the website
     'creator': '@TralahM',     # Username for the content creator / author.
 }
