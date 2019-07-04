@@ -15,11 +15,11 @@
  </url>
  <url>
   <loc>https://tralahm.github.io/archive.html</loc>
-  <lastmod>2019-07-03T02:46:00Z</lastmod>
+  <lastmod>2019-07-04T18:18:00Z</lastmod>
  </url>
  <url>
   <loc>https://tralahm.github.io/categories/</loc>
-  <lastmod>2019-07-01T17:38:00Z</lastmod>
+  <lastmod>2019-07-04T18:18:00Z</lastmod>
  </url>
  <url>
   <loc>https://tralahm.github.io/categories/ai/</loc>
@@ -34,6 +34,14 @@
   <lastmod>2019-07-01T17:38:00Z</lastmod>
  </url>
  <url>
+  <loc>https://tralahm.github.io/categories/math/</loc>
+  <lastmod>2019-07-04T18:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/categories/mathjax/</loc>
+  <lastmod>2019-07-04T18:18:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://tralahm.github.io/categories/programming/</loc>
   <lastmod>2019-07-01T17:38:00Z</lastmod>
  </url>
@@ -44,6 +52,10 @@
  <url>
   <loc>https://tralahm.github.io/listings/</loc>
   <lastmod>2019-06-27T21:05:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/posts/%20lagrange-interpolation-with-python/</loc>
+  <lastmod>2019-07-04T18:18:00Z</lastmod>
  </url>
  <url>
   <loc>https://tralahm.github.io/posts/%20my-journey-into-data-science/</loc>
