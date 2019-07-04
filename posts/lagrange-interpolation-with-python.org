@@ -1,4 +1,6 @@
 * Lagrange Interpolation
+This technique is useful for un-equspaced data points.
+It allows us to find values of unseen data points based on existing data,value pairs
 
 From the definition of gradient, we take three points (x,$f(x)$), (x_{0},$f(x_{0})$) ,  (x_{1},$f(x_{1})$)
 
@@ -12,7 +14,7 @@ From the definition of gradient, we take three points (x,$f(x)$), (x_{0},$f(x_{0
 | $f(x)$ | $f(x_{0})$ | $f(x_{1})$ |
 
 To find the gradient of a function we use,
-\[\frac{ \delta y}{ \delta x} = \frac{f(x) - f(x_{0})}{x - x_{0}} = \frac{f(x_{0}) - f(x_{1})}{x_{0} - x_{1}} \] 
+\[\frac{ \delta y}{ \delta x} = \frac{f(x) - f(x_{0})}{x - x_{0}} = \frac{f(x_{0}) - f(x_{1})}{x_{0} - x_{1}} \]
 
 Let us solve for $f(x)$.
 
