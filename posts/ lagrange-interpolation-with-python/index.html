@@ -89,6 +89,11 @@ og: http://ogp.me/ns#
 <h2 id="sec-1">Lagrange Interpolation</h2>
 <div class="outline-text-2" id="text-1">
 <p>
+This technique is useful for un-equspaced data points.
+It allows us to find values of unseen data points based on existing data,value pairs
+</p>
+
+<p>
 From the definition of gradient, we take three points (x,\(f(x)\)), (x<sub>0</sub>,\(f(x_{0})\)) ,  (x<sub>1</sub>,\(f(x_{1})\))
 </p>
 
@@ -113,7 +118,7 @@ From the definition of gradient, we take three points (x,\(f(x)\)), (x<sub>0</su
 </table>
 <p>
 To find the gradient of a function we use,
-\[\frac{ \delta y}{ \delta x} = \frac{f(x) - f(x_{0})}{x - x_{0}} = \frac{f(x_{0}) - f(x_{1})}{x_{0} - x_{1}} \] 
+\[\frac{ \delta y}{ \delta x} = \frac{f(x) - f(x_{0})}{x - x_{0}} = \frac{f(x_{0}) - f(x_{1})}{x_{0} - x_{1}} \]
 </p>
 
 <p>
