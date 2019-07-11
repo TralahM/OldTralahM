@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TralahTek (Posts about data)</title><link>https://tralahm.github.io/</link><description></description><atom:link href="https://tralahm.github.io/categories/data.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:musyoki.tralah@students.jkuat.ac.ke"&gt;TralahM&lt;/a&gt; </copyright><lastBuildDate>Thu, 04 Jul 2019 18:50:15 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>lagrange interpolation with python</title><link>https://tralahm.github.io/posts/%20lagrange-interpolation-with-python/</link><dc:creator>TralahM</dc:creator><description>&lt;div id="outline-container-sec-1" class="outline-2"&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TralahTek (Posts about data)</title><link>https://tralahm.github.io/</link><description></description><atom:link href="https://tralahm.github.io/categories/data.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:musyoki.tralah@students.jkuat.ac.ke"&gt;TralahM&lt;/a&gt; </copyright><lastBuildDate>Mon, 08 Jul 2019 17:31:30 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>lagrange interpolation with python</title><link>https://tralahm.github.io/posts/%20lagrange-interpolation-with-python/</link><dc:creator>TralahM</dc:creator><description>&lt;div id="outline-container-sec-1" class="outline-2"&gt;
 &lt;h2 id="sec-1"&gt;Lagrange Interpolation&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-1"&gt;
 &lt;p&gt;
@@ -38,7 +38,10 @@ From the definition of gradient, we take three points (x,\(f(x)\)), (x&lt;sub&gt
 &lt;/table&gt;
 
 &lt;p&gt;
-To find the gradient of a function we use,
+&lt;span class="underline"&gt;&lt;span class="underline"&gt;To find the gradient of a function we use&lt;/span&gt;&lt;/span&gt;,
+&lt;/p&gt;
+
+&lt;p&gt;
 \[\frac{ \delta y}{ \delta x} = \frac{f(x) - f(x_{0})}{x - x_{0}} = \frac{f(x_{0}) - f(x_{1})}{x_{0} - x_{1}} \]
 &lt;/p&gt;
 
@@ -52,6 +55,9 @@ Let us solve for \(f(x)\).
 &lt;div class="outline-text-3" id="text-1-1"&gt;
 &lt;p&gt;
 By cross multiplication we have,
+&lt;/p&gt;
+
+&lt;p&gt;
 \[ (f(x) - f(x_{0}))(x_{0} - x_{1}) = (f(x_{0}) - f(x_{1}))(x - x_{0})\]
 &lt;/p&gt;
 
@@ -96,7 +102,7 @@ solving for \(f(x)\) by dividing both sides by \((x_{0} - x_{1})\) we obtain:
 &lt;/p&gt;
 
 &lt;p&gt;
-\[ f(x) =  \frac{x - x_{1}}{x_{0} - x_{1}}f(x_{0}) +\frac{x_{0} - x}{x_{0} - x_{1}}f(x_{1}) \]
+\textbf {\[ f(x) =  \frac{x - x_{1}}{x_{0} - x_{1}}f(x_{0}) +\frac{x_{0} - x}{x_{0} - x_{1}}f(x_{1}) \]}
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -136,6 +142,8 @@ after performing lagrange interpolation using the data.
     &lt;span class="n"&gt;args&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;parser&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;parse_args&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
     &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"f(&lt;/span&gt;&lt;span class="si"&gt;%f&lt;/span&gt;&lt;span class="s2"&gt;) is &lt;/span&gt;&lt;span class="si"&gt;%f&lt;/span&gt;&lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;args&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;X&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;foX&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;args&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;X&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;args&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;x0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;args&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;x1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;args&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;f_x0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;args&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;f_x1&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;p&gt;
 &lt;a href="https://github.com/TralahM/pymath/blob/master/lagrange.py"&gt;You can find this script here on github&lt;/a&gt;
 &lt;/p&gt;
@@ -146,10 +154,14 @@ after performing lagrange interpolation using the data.
 &lt;div class="outline-text-2" id="text-1"&gt;
 &lt;p&gt;
   The definition of data scientist is fairly broad and generally no
-common consensus among the academia community.
-However data science is a field that has emerged from the mathematical
-branch of statistics, computer science and part from economics. It relates
-to the 
+common consensus among the academia community and is not yet fully defined as an academic subject.
+The central tenets,concepts,knowledge,skills, and ethics powering this emerging discipline remain points of active discussion and continue to evolve.
+&lt;/p&gt;
+
+&lt;p&gt;
+However data science is a field that has emerged from the multidisciplinary principles of mathematics,
+statistics,information technology,operations managements,business analytics, computer science and economics.
+It relates to the 
 &lt;/p&gt;
 &lt;ul class="org-ul"&gt;
 &lt;li&gt;collection, 
@@ -158,9 +170,15 @@ to the
 &lt;/li&gt;
 &lt;li&gt;storage, 
 &lt;/li&gt;
-&lt;li&gt;analysis and 
+&lt;li&gt;analysis
 &lt;/li&gt;
-&lt;li&gt;presentation of data
+&lt;li&gt;inference 
+&lt;/li&gt;
+&lt;li&gt;presentation
+&lt;/li&gt;
+&lt;li&gt;communication and
+&lt;/li&gt;
+&lt;li&gt;ethics appropriate for this new data-driven era
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
@@ -169,6 +187,12 @@ meaningful results, predictions, recommendations, descriptions and explanations 
 the data being examined.
 &lt;/p&gt;
 
+&lt;p&gt;
+With billions of autonomous sensors and devices continually delivering data to cloud based databases, which record the states and activities of vehicles,
+buildings, customers, patients and citizens, there is more data today in the world than ever was before.
+&lt;/p&gt;
+
+
 &lt;div class="figure"&gt;
 &lt;p&gt;&lt;img src="https://tralahm.github.io/posts/images/data-science-questions.jpg" alt="data-science-questions.jpg"&gt;
 &lt;/p&gt;
@@ -176,44 +200,93 @@ the data being examined.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+
 &lt;div id="outline-container-sec-2" class="outline-2"&gt;
 &lt;h2 id="sec-2"&gt;What does a data scientist do.&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-2"&gt;
 &lt;p&gt;
-  Well a Data scientist does some or all of the processes aforementioned depending on
-which part of the data science process the person is tasked with.
-Among data scientists are
+Some current areas of focus for data scientists include the following:
 &lt;/p&gt;
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;span class="underline"&gt;&lt;span class="underline"&gt;data analysts&lt;/span&gt;&lt;/span&gt; whose main role is to study the data at hand and draw descriptions and summaries from the data, 
-&lt;/li&gt;
-&lt;li&gt;&lt;span class="underline"&gt;&lt;span class="underline"&gt;data engineers&lt;/span&gt;&lt;/span&gt; who are more concerned with how the data at hand is stored, structured and retrieved,
-&lt;/li&gt;
-&lt;li&gt;&lt;span class="underline"&gt;&lt;span class="underline"&gt;machine learning engineers&lt;/span&gt;&lt;/span&gt; whose role is to develop useful models for categorizing or predicting outcomes of future unseen
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-2-1" class="outline-3"&gt;
+&lt;h3 id="sec-2-1"&gt;Computing hardware and software for data science.&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-1"&gt;
 &lt;p&gt;
-similar data like recommender systems, predictive systems, generally developing some useful
-model that can be applied to data to solve some problems, 
-&lt;/p&gt;
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;span class="underline"&gt;&lt;span class="underline"&gt;Business Analysts&lt;/span&gt;&lt;/span&gt; whose role is to find how some model or data can be used to affect business processes or change existing or develop new business
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-processes.
+Data scientists who manage the platforms on which data science models are created focus on understanding and maintaining a computing environment that meets the demand for big data,
+fast(sometimes real time or near real time) model generation, and data interrogation - upto and including the demands of real-time data collection(i.e streaming) and complex data visualizations.
+A significant challenge of this job is remaining current on the latest computing hardware and software.
 &lt;/p&gt;
 
 &lt;p&gt;
-There also exists hierarchies in this job where some data scientists are at an entry level under other more
-experienced data scientists who manage teams of data scientists.
+These data scientists create environments for data science modelers and analysts that can be used across a range of computing platforms.
+This requires that they understand the changing programming languages used for data science, the supporting libraries, and many types of data storage systems, as well as how to keep all these components operational and secure.
+It required that they have training in database maintainence, security,programming hardware, and operating systems.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-2-2" class="outline-3"&gt;
+&lt;h3 id="sec-2-2"&gt;Data storage and access.&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-2"&gt;
+&lt;p&gt;
+Data scientists who focus on managing data storage solutions as well as extracting,transforming and loading data for modelling should have the ability to manage large datasets from a variety of heterogeneous data sources and in batch or streaming form, and to assess the predictive value of these data sources.
+A strong knowledge in both  databases and streamed analytical processing is key to these role.
+These data scientists need to understand the data science workflow, to document data quality problems, and to select appropriate methods of interpolation - even, in some cases creating data models to clean and reduce errors in downstream model development performance.
+Some domain knowledge is likely needed.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-2-3" class="outline-3"&gt;
+&lt;h3 id="sec-2-3"&gt;Statistical modeling and Machine learning&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-3"&gt;
+&lt;p&gt;
+Experts in statistical modelling and machine learning interface with stakeholders to capture requirements and develop the scope of work for data science projects, undertake the data science analysis cycle, and typically bridge the gaps among more narrowly focused data science roles.
+Written and oral communication skills are essential for this position, as is coordinating teams.
+Often these data scientists require considerable domain expertise in the field for which the data science models are being developed.
 &lt;/p&gt;
 
 &lt;p&gt;
-What a data scientist does depends on the level and area of focus he or she is at.
+For example, an individual devoloping a model for clinical trial analysis for drug development would need to have significant unerstanding of pharmacology and clinical data collection.
+It is a broad and complex position and requires significant training.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;div id="outline-container-sec-2-4" class="outline-3"&gt;
+&lt;h3 id="sec-2-4"&gt;Data Visualization&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-4"&gt;
+&lt;p&gt;
+Ideally, data visualization experts combine development and design skills with the ability to understand the meaning of the analyses.
+These data scientists are adept at visual storytelling woth data. They can examine large datasets and create, clear, efficient, compelling online layouts, images, dashboards, and interactive feautures that can stand on their own or complement narrative text.
+At their core, they are effective translators between technical and statistical specialists and superior communicators with multiple non-technical audiences.
+They are well versed in the key elements of graphical displays as well as pitfalls of misrepresenting data and results.
+&lt;/p&gt;
+
+&lt;p&gt;
+These data scientists combine knowledge of statistical analysis tools, libraries, frameworks to complement a foundation in computational, statistical and data management methods.
+They understand APIs, how to parse them and, ideally, how to build them and are closely aligned with the data management functions performed by others on a team.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-2-5" class="outline-3"&gt;
+&lt;h3 id="sec-2-5"&gt;Business Analysts&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-5"&gt;
+&lt;p&gt;
+These data scientists are involved in making sense of and communicating about data without neccessarily relying on programming skills.
+These jobs are built around assembling and presenting data to inform a decision making process. Common in many business areas.
+&lt;/p&gt;
+
+&lt;p&gt;
+There are many types of data scientists today, and their roles will continue to change and expand in the future.
+Beyond the differences among them, there is considerable variance in the level of knowledge and skills that some data science jobs require.
+There are also commonalities among the varied types of data scientists. All data scientists need to learn how to tackle questions with real data.
+&lt;/p&gt;
+
+&lt;p&gt;
+An effective data science workflow involves formulating good questions, considering whether the available data are appropriate for addressing a problem, choosing from a set of different tools, undertaking analyses in a reproducible manner, assessing analytic methods, drawing appropriate conclusions, and communicating results.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
 
 
 &lt;div id="outline-container-sec-3" class="outline-2"&gt;
@@ -402,4 +475,4 @@ Put your work out there and see what others are doing like on github, bitbucket,
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><category>AI</category><category>data</category><category>data-science</category><category>programming</category><guid>https://tralahm.github.io/posts/%20my-journey-into-data-science/</guid><pubDate>Thu, 27 Jun 2019 21:03:19 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><category>AI</category><category>data</category><category>datascience</category><category>programming</category><guid>https://tralahm.github.io/posts/%20my-journey-into-data-science/</guid><pubDate>Thu, 27 Jun 2019 21:03:19 GMT</pubDate></item></channel></rss>
