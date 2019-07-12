@@ -1,3 +1,4 @@
+
 <div class='intro container-fluid'>
 <p>
 I'm a Kenyan 4th year undergraduate student currently studying at <a href="https://jkuat.ac.ke/">JKUAT</a>  pursuing a bachelor's degree in mathematics and computer science. Working towards the IPO of <a href="https://tralahtek.herokuapp.com/">TralahTek</a> after graduation.
@@ -12,6 +13,7 @@ I am widely knowledgeable in diverse fields of computer science and mathematics.
 </p>
 </div>
 * *Degrees and Certifications*
+<!-- TEASER_END -->
 -----------
 <div class='row'>
 <div class="col-md-4">
