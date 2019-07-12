@@ -11,7 +11,7 @@ seemingly not very useful data and extract actionable insights and tell a
 story thereof. I am widely knowledgeable in diverse fields of computer science
 and mathematics.
 
-* *Degrees and Certifications*  \----------- 
+* *Degrees and Certifications*
 
 Applied Data Science with Python from IBM (June 2018 - August 2018)
 
@@ -21,7 +21,7 @@ Computer Science and Mathematics Degree from JKUAT (May 2016 - September 2019)
 
 ![](/images/jkuat-logo.png)
 
-* *Programming Languages* \------------- 
+* *Programming Languages*
 
 ![](/images/clang.png)
 
@@ -39,7 +39,7 @@ Computer Science and Mathematics Degree from JKUAT (May 2016 - September 2019)
 
 ![](/images/golang.png)
 
-* *Operating Systems* \---------------- 
+* *Operating Systems*
 
 ![](/images/linuxcolor.png)
 
@@ -47,7 +47,7 @@ Computer Science and Mathematics Degree from JKUAT (May 2016 - September 2019)
 
 ![](/images/microsoft.png)
 
-* *Text Editors, Terminal Multiplexers and IDEs.* \------------------ 
+* *Text Editors, Terminal Multiplexers and IDEs.*
 
 ![](/images/vim.png)
 
@@ -55,15 +55,15 @@ Computer Science and Mathematics Degree from JKUAT (May 2016 - September 2019)
 
 ![](/images/tmux.png)
 
-* *Popular Frameworks and SDKs* \------------ 
+* *Popular Frameworks and SDKs*
 
 ![](/images/dotnet.png)
 
-* *Virtualization and Containerization* \------------ 
+* *Virtualization and Containerization*
 
 ![](/images/docker.png)
 
-* *Web Technologies* \--------------- 
+* *Web Technologies*
 
 ![](/images/html5.png)
 
@@ -85,7 +85,9 @@ Computer Science and Mathematics Degree from JKUAT (May 2016 - September 2019)
 
 ![](/images/wordpress.png)
 
-* *Continuous Integration and Continuous Delivery (CI & CD)* \--------------- ![](/images/jenkins.png) * *Python Frameworks and Libraries* \------------ 
+* *Continuous Integration and Continuous Delivery (CI & CD)*
+![](/images/jenkins.png)
+* *Python Frameworks and Libraries*
 
 ![](/images/anaconda.png)
 
@@ -119,7 +121,7 @@ Computer Science and Mathematics Degree from JKUAT (May 2016 - September 2019)
 
 ![](/images/spacy.png)
 
-* *Database and Data Storage Techonologies* \-------- 
+* *Database and Data Storage Techonologies*
 
 ![](/images/mysql.png)
 
@@ -131,5 +133,25 @@ Computer Science and Mathematics Degree from JKUAT (May 2016 - September 2019)
 
 ![](/images/spark.png)
 
-* Data Science Foundations Level 1 from IBM ### Experience * President(2018-2019), Vice President(2017-2018) of TralahTek Artificial Intelligence * Coach with JKUAT Chess Olympics * Peer Mentor with JKUAT Developer Mentorship Program * JKUAT Lead Resident Assistant(2018-2019), JKUAT Resident Assistant(2017-2018) ### Published Writing ### Teaching As president of TralahTek's AI group, I've presented/co-presented on the following topics (with slides attached). As part of TralahTek AI, we hold research paper reading group meetings. ### Books I'd Highly Recommend * *Bad Samaritans* - Hajoong Chang * *The Art of War* - Sun Tzu * *Quiet: The Power of Introverts in a World That Can't Stop Talking* - Susan Cain * *Your First 100 Million* - Dan Pena * *When things fall Apart* - Chinua Achebe * *The Elegant Universe* - Brian Greene * *10% Happier* - Dan Harris * *Sapiens: A Brief History of Humankind* - Yuval Noah Harari * *Homo Deus: A Brief History of Tomorrow* - Yuval Noah Harari * *Born a Crime* - Trevor Noah ### Contact me [musyoki.tralah@student.jkuat.ac.ke](mailto:musyoki.tralah@student.jkuat.ac.ke) 
+### Experience
+* President(2018-2019), Vice President(2017-2018) of TralahTek Artificial Intelligence
+* Coach with JKUAT Chess Olympics
+* Peer Mentor with JKUAT Developer Mentorship Program
+* JKUAT Lead Resident Assistant(2018-2019), JKUAT Resident Assistant(2017-2018)
+### Published Writing
+### Teaching
+As president of TralahTek's AI group, I've presented/co-presented on the following topics (with slides attached). As part of TralahTek AI, we hold research paper reading group meetings.
+### Books I'd Highly Recommend
+* *Bad Samaritans* - Hajoong Chang
+* *The Art of War* - Sun Tzu
+* *Quiet: The Power of Introverts in a World That Can't Stop Talking* - Susan Cain
+* *Your First 100 Million* - Dan Pena
+* *When things fall Apart* - Chinua Achebe
+* *The Elegant Universe* - Brian Greene
+* *10% Happier* - Dan Harris
+* *Sapiens: A Brief History of Humankind* - Yuval Noah Harari
+* *Homo Deus: A Brief History of Tomorrow* - Yuval Noah Harari
+* *Born a Crime* - Trevor Noah
+### Contact me
+[musyoki.tralah@student.jkuat.ac.ke](mailto:musyoki.tralah@student.jkuat.ac.ke)
 
