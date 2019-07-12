@@ -138,7 +138,7 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ('/blog', 'Home', 'fa fa-home'),
+        ('/posts', 'Home', 'fa fa-home'),
         ('/archive.html', 'Archives', 'fa fa-folder-open'),
         ('/categories/index.html', 'Tags', 'fa fa-tags'),
         ('/rss.xml', 'RSS', 'fa fa-rss'),
@@ -146,6 +146,7 @@ NAVIGATION_LINKS = {
         ('https://twitter.com/TralahM',
          'My Twitter', 'fab fa-twitter'),
         ('https://github.com/TralahM', 'My Github', 'fab fa-github'),
+        ('https://www.linkedin.com/in/tralahm', 'My LinkedIn', 'fab fa-linkedin'),
     )
 }
 
@@ -894,7 +895,7 @@ SHOW_INDEX_PAGE_NAVIGATION = True
 # )
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.
-INDEX_TEASERS = True
+INDEX_TEASERS = False
 
 # HTML fragments with the Read more... links.
 # The following tags exist and are replaced for you:
