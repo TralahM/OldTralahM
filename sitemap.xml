@@ -7,15 +7,19 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://tralahm.github.io/</loc>
-  <lastmod>2019-06-27T22:21:00Z</lastmod>
+  <lastmod>2019-07-12T16:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://tralahm.github.io/2019/</loc>
   <lastmod>2019-06-27T21:05:00Z</lastmod>
  </url>
  <url>
+  <loc>https://tralahm.github.io/about/</loc>
+  <lastmod>2019-07-12T16:30:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://tralahm.github.io/archive.html</loc>
-  <lastmod>2019-07-04T18:50:00Z</lastmod>
+  <lastmod>2019-07-12T16:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://tralahm.github.io/categories/</loc>
@@ -56,6 +60,10 @@
  <url>
   <loc>https://tralahm.github.io/listings/</loc>
   <lastmod>2019-06-27T21:05:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/posts/</loc>
+  <lastmod>2019-07-12T16:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://tralahm.github.io/posts/%20lagrange-interpolation-with-python/</loc>
