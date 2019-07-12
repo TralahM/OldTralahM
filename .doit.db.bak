@@ -207,3 +207,7 @@
 'copy_assets:output/assets/fonts/fontawesome-webfont.woff', (165888, 330)
 'copy_assets:output/assets/fonts/RobotoDraftItalic.woff2', (166400, 328)
 'render_sources:output/posts/ my-journey-into-data-science/index.org', (166912, 274)
+'copy_assets:output/assets/images/glyphicons-halflings.png', (191488, 310)
+'copy_assets:output/assets/images/cream-dust.png', (202240, 288)
+'copy_assets:output/assets/images/blue-mocha-grunge.jpg', (221696, 304)
+'copy_assets:output/assets/images/glyphicons-halflings-white.png', (233472, 321)

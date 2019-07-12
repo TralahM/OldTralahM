@@ -115,7 +115,7 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 # This is a dict.  The keys are languages, and values are tuples.
 #
 # For regular links:
-#     ('https://getnikola.com/', 'Nikola Homepage')
+#     ('https://TralahM.com/', 'Nikola Homepage')
 #
 # For submenus:
 #     (
@@ -138,12 +138,17 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archive"),
-        ("/categories/", "Tags"),
-        ("/rss.xml", "RSS feed"),
-        ("https://github.com/TralahM", "My Github Profile"),
-    ),
+        ('/blog', 'Home', 'fa fa-home'),
+        ('/archive.html', 'Archives', 'fa fa-folder-open'),
+        ('/categories/index.html', 'Tags', 'fa fa-tags'),
+        ('/rss.xml', 'RSS', 'fa fa-rss'),
+        ('/index.html', 'About me', 'fa fa-user'),
+        ('https://twitter.com/TralahM',
+         'My Twitter', 'fab fa-twitter'),
+        ('https://github.com/TralahM', 'My Github', 'fab fa-github'),
+    )
 }
+
 
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
 # although themes may not always support them. (translatable)
@@ -153,7 +158,7 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "material-theme"
+THEME = "zen"
 
 # Primary color of your theme. This will be used to customize your theme.
 # Must be a HEX value.
@@ -638,7 +643,7 @@ REDIRECTIONS = []
 
 # github_deploy configuration
 # For more details, read the manual:
-# https://getnikola.com/handbook.html#deploying-to-github
+# https://TralahM.com/handbook.html#deploying-to-github
 # You will need to configure the deployment branch on GitHub.
 GITHUB_SOURCE_BRANCH = 'sources'
 GITHUB_DEPLOY_BRANCH = 'master'
@@ -680,7 +685,7 @@ GITHUB_COMMIT_SOURCE = True
 # Nikola’s templates. All other filters must be enabled through FILTERS.
 #
 # Many filters are shipped with Nikola. A list is available in the manual:
-# <https://getnikola.com/handbook.html#post-processing-filters>
+# <https://TralahM.com/handbook.html#post-processing-filters>
 #
 # from nikola import filters
 # FILTERS = {
@@ -932,7 +937,7 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://TralahM.com" rel="nofollow">Nikola</a>         {license}'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -1256,7 +1261,7 @@ BODY_END = ""
 #     "rest_docinfo": {"summary": "description", "modified": "updated"},
 #     "markdown_metadata": {"summary": "description", "modified": "updated"}
 # }
-# Other examples: https://getnikola.com/handbook.html#mapping-metadata-from-other-formats
+# Other examples: https://TralahM.com/handbook.html#mapping-metadata-from-other-formats
 
 # Map metadata between types/values. (Runs after METADATA_MAPPING.)
 # Supported formats: nikola, yaml, toml, rest_docinfo, markdown_metadata
