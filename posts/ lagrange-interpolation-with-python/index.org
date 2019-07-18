@@ -13,6 +13,8 @@ From the definition of gradient, we take three points (x,$f(x)$), (x_{0},$f(x_{0
 |--------+------------+------------|
 | $f(x)$ | $f(x_{0})$ | $f(x_{1})$ |
 
+.. TEASER_END
+
 __To find the gradient of a function we use__,
 
 \[\frac{ \delta y}{ \delta x} = \frac{f(x) - f(x_{0})}{x - x_{0}} = \frac{f(x_{0}) - f(x_{1})}{x_{0} - x_{1}} \]
