@@ -13,7 +13,7 @@ From the definition of gradient, we take three points (x,$f(x)$), (x_{0},$f(x_{0
 |--------+------------+------------|
 | $f(x)$ | $f(x_{0})$ | $f(x_{1})$ |
 
-.. TEASER_END
+#+TEASER_END
 
 __To find the gradient of a function we use__,
 
