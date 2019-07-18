@@ -148,7 +148,7 @@
 'render_taxonomies:output/categories/data/index.html', (182784, 3007)
 'render_taxonomies', (120320, 56)
 'copy_assets:output/assets/js/ripples.js', (120832, 295)
-'sitemap:output/sitemap.xml', (275456, 4625)
+'sitemap:output/sitemap.xml', (275456, 4626)
 'copy_assets:output/assets/js/html5.js', (125440, 399)
 'scale_images:output/images/logo.svg', (125952, 209)
 'scale_images:output/images/mysql.png', (126464, 211)
