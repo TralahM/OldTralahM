@@ -200,7 +200,7 @@
 'copy_assets:output/assets/js/ripples.min.js.map', (161792, 311)
 'copy_assets:output/assets/js/gallery.js', (162304, 403)
 'scale_images:output/images/tmux.png', (162816, 208)
-'sitemap:output/sitemapindex.xml', (163328, 254)
+'sitemap:output/sitemapindex.xml', (163328, 255)
 'create_bundles:output/assets/css/all.css', (192000, 1274)
 'copy_assets:output/assets/css/nikola_rst.css', (164864, 411)
 'scale_images:output/images/apple.png', (165376, 211)
