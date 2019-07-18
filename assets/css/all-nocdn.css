@@ -864,7 +864,7 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 180px;
+  width: 210px;
 }
 @media (max-width: 773px) {
   .social {
@@ -886,7 +886,7 @@ section {
   margin: 0;
   top: 50px;
   display: table;
-  width: 180px;
+  width: 210px;
 }
 @media (max-width: 773px) {
   .social ul {
