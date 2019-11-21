@@ -1,14 +1,19 @@
 <div class='intro container-fluid'>
 <p>
-I'm a Kenyan 4th year undergraduate student currently studying at <a href="https://jkuat.ac.ke/">JKUAT</a>  pursuing a bachelor's degree in mathematics and computer science. Working towards the IPO of <a href="https://tralahtek.herokuapp.com/">TralahTek</a> after graduation.
+I am a Data Scientist with a background in Mathematics and Computer Science from <a href="https://jkuat.ac.ke/">JKUAT</a>.
+I design and write algorithms for the most part of my job besides leading a development
+team and attending management and client meetings.
+I love Open Source and the philosophy of community driven software development and also
+contribute to Open Source projects whenever i can.
+My main focus is solving problems using data and mathematics.
 </p>
 <p>
 I am passionate about solving problems and love playing with numbers.
+Vim is my editor of choice and Linux is my operating system of choice.
 </p>
 <p>
 I believe in collaboration in problem solving and its merits in yielding effective and scalable solutions.
 It gives me great joy to be able to take seemingly not very useful data and extract actionable insights and tell a story thereof.
-I am widely knowledgeable in diverse fields of computer science and mathematics.
 </p>
 </div>
 * *Degrees and Certifications*
@@ -104,7 +109,7 @@ I am widely knowledgeable in diverse fields of computer science and mathematics.
 </div>
 </div>
 
-* *Programming Languages*
+* *Programming Languages* I have used
 -------------
 <div class='row'>
 
@@ -303,10 +308,10 @@ I am widely knowledgeable in diverse fields of computer science and mathematics.
 </div>
 </div>
 
-* Data Science Foundations Level 1 from IBM
 
 ### Experience
 
+* Lead Data Scientist and CTO of [Novatta Africa Ltd](https://novatta.co.ke)
 * President(2018-2019), Vice President(2017-2018) of TralahTek  Artificial Intelligence
 * Coach with JKUAT Chess Olympics
 * Peer Mentor with JKUAT  Developer Mentorship Program
