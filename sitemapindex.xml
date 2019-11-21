@@ -7,50 +7,138 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://tralahm.github.io/categories/ai.xml</loc>
-  <lastmod>2019-07-19T00:03:00Z</lastmod>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://tralahm.github.io/categories/data-science.xml</loc>
-  <lastmod>2019-07-19T00:03:00Z</lastmod>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://tralahm.github.io/categories/data.xml</loc>
-  <lastmod>2019-07-19T00:03:00Z</lastmod>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://tralahm.github.io/categories/datascience.xml</loc>
-  <lastmod>2019-07-12T16:30:00Z</lastmod>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://tralahm.github.io/categories/historians.xml</loc>
-  <lastmod>2019-07-18T20:51:00Z</lastmod>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://tralahm.github.io/categories/math.xml</loc>
-  <lastmod>2019-07-19T00:03:00Z</lastmod>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://tralahm.github.io/categories/mathjax.xml</loc>
-  <lastmod>2019-07-19T00:03:00Z</lastmod>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://tralahm.github.io/categories/politics.xml</loc>
-  <lastmod>2019-07-18T20:51:00Z</lastmod>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://tralahm.github.io/categories/programming.xml</loc>
-  <lastmod>2019-07-19T00:03:00Z</lastmod>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://tralahm.github.io/es/categories/ai.xml</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://tralahm.github.io/es/categories/data-science.xml</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://tralahm.github.io/es/categories/data.xml</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://tralahm.github.io/es/categories/datascience.xml</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://tralahm.github.io/es/categories/historians.xml</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://tralahm.github.io/es/categories/math.xml</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://tralahm.github.io/es/categories/mathjax.xml</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://tralahm.github.io/es/categories/politics.xml</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://tralahm.github.io/es/categories/programming.xml</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://tralahm.github.io/es/galleries/rss.xml</loc>
+  <lastmod>2019-11-21T23:12:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://tralahm.github.io/es/rss.xml</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://tralahm.github.io/fr/categories/ai.xml</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://tralahm.github.io/fr/categories/data-science.xml</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://tralahm.github.io/fr/categories/data.xml</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://tralahm.github.io/fr/categories/datascience.xml</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://tralahm.github.io/fr/categories/historians.xml</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://tralahm.github.io/fr/categories/math.xml</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://tralahm.github.io/fr/categories/mathjax.xml</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://tralahm.github.io/fr/categories/politics.xml</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://tralahm.github.io/fr/categories/programming.xml</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://tralahm.github.io/fr/galleries/rss.xml</loc>
+  <lastmod>2019-11-21T23:12:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://tralahm.github.io/fr/rss.xml</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://tralahm.github.io/galleries/rss.xml</loc>
-  <lastmod>2019-11-21T22:47:00Z</lastmod>
+  <lastmod>2019-11-21T23:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://tralahm.github.io/rss.xml</loc>
-  <lastmod>2019-11-21T22:48:00Z</lastmod>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://tralahm.github.io/sitemap.xml</loc>
-  <lastmod>2019-11-21T22:48:00Z</lastmod>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
  </sitemap>
 </sitemapindex>

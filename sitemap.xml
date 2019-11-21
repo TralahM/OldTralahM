@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://tralahm.github.io/</loc>
-  <lastmod>2019-07-17T18:41:00Z</lastmod>
+  <lastmod>2019-11-21T23:12:00Z</lastmod>
  </url>
  <url>
   <loc>https://tralahm.github.io/2019/</loc>
@@ -19,7 +19,7 @@
  </url>
  <url>
   <loc>https://tralahm.github.io/archive.html</loc>
-  <lastmod>2019-11-21T22:47:00Z</lastmod>
+  <lastmod>2019-11-21T23:12:00Z</lastmod>
  </url>
  <url>
   <loc>https://tralahm.github.io/categories/</loc>
@@ -62,12 +62,216 @@
   <lastmod>2019-07-01T17:38:00Z</lastmod>
  </url>
  <url>
+  <loc>https://tralahm.github.io/es/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/es/2019/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/es/about/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/es/archive.html</loc>
+  <lastmod>2019-11-21T23:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/es/categories/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/es/categories/ai/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/es/categories/data-science/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/es/categories/data/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/es/categories/datascience/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/es/categories/historians/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/es/categories/math/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/es/categories/mathjax/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/es/categories/politics/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/es/categories/programming/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/es/galleries/</loc>
+  <lastmod>2019-11-21T23:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/es/index.src.html</loc>
+  <lastmod>2019-11-21T23:02:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/es/posts/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/es/posts/%20lagrange-interpolation-with-python/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://tralahm.github.io/posts/%20lagrange-interpolation-with-python/" />
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/es/posts/%20my-journey-into-data-science/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://tralahm.github.io/posts/%20my-journey-into-data-science/" />
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/es/posts/index-1.html</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/es/posts/natural-language-processing-in-swahili/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://tralahm.github.io/posts/natural-language-processing-in-swahili/" />
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/es/posts/programmers-are-evil/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://tralahm.github.io/posts/programmers-are-evil/" />
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/es/posts/social-media-is-a-flawed-concept/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://tralahm.github.io/posts/social-media-is-a-flawed-concept/" />
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/es/posts/why-bad-behaviour-is-almost-always-good-politics/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://tralahm.github.io/posts/why-bad-behaviour-is-almost-always-good-politics/" />
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/2019/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/about/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/archive.html</loc>
+  <lastmod>2019-11-21T23:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/categories/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/categories/ai/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/categories/data-science/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/categories/data/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/categories/datascience/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/categories/historians/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/categories/math/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/categories/mathjax/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/categories/politics/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/categories/programming/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/galleries/</loc>
+  <lastmod>2019-11-21T23:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/index.src.html</loc>
+  <lastmod>2019-11-21T23:02:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/posts/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/posts/%20lagrange-interpolation-with-python/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://tralahm.github.io/posts/%20lagrange-interpolation-with-python/" />
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/posts/%20my-journey-into-data-science/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://tralahm.github.io/posts/%20my-journey-into-data-science/" />
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/posts/index-1.html</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/posts/natural-language-processing-in-swahili/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://tralahm.github.io/posts/natural-language-processing-in-swahili/" />
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/posts/programmers-are-evil/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://tralahm.github.io/posts/programmers-are-evil/" />
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/posts/social-media-is-a-flawed-concept/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://tralahm.github.io/posts/social-media-is-a-flawed-concept/" />
+ </url>
+ <url>
+  <loc>https://tralahm.github.io/fr/posts/why-bad-behaviour-is-almost-always-good-politics/</loc>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://tralahm.github.io/posts/why-bad-behaviour-is-almost-always-good-politics/" />
+ </url>
+ <url>
   <loc>https://tralahm.github.io/galleries/</loc>
   <lastmod>2019-06-27T21:05:00Z</lastmod>
  </url>
  <url>
   <loc>https://tralahm.github.io/index.src.html</loc>
-  <lastmod>2019-07-28T19:08:00Z</lastmod>
+  <lastmod>2019-11-21T23:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://tralahm.github.io/listings/</loc>
@@ -87,7 +291,7 @@
  </url>
  <url>
   <loc>https://tralahm.github.io/posts/index-1.html</loc>
-  <lastmod>2019-11-21T22:48:00Z</lastmod>
+  <lastmod>2019-11-21T23:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://tralahm.github.io/posts/natural-language-processing-in-swahili/</loc>
