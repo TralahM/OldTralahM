@@ -98,7 +98,8 @@ DEFAULT_LANG = "en"
 TRANSLATIONS = {
     DEFAULT_LANG: "",
     # Example for another language:
-    # "es": "./es",
+    "es": "./es",
+    "fr": "./fr",
 }
 
 # What will translated input files be named like?
@@ -173,9 +174,9 @@ THEME_COLOR = '#5670d4'
 THEME_CONFIG = {
     DEFAULT_LANG: {
         # Show the latest featured post in a large box, with the previewimage as its background.
-        'featured_large': False,
+        'featured_large': True,
         # Show the first (remaining) two featured posts in small boxes.
-        'featured_small': False,
+        'featured_small': True,
         # Show featured posts on mobile.
         'featured_on_mobile': True,
         # Show image in `featured_large` on mobile.
@@ -378,7 +379,7 @@ SHOW_BLOG_TITLE = False
 TAG_DESCRIPTIONS = {
     DEFAULT_LANG: {
         "blogging": "Meta-blog posts about blogging.",
-        "open source": "My contributions to my many, varied, ever-changing, and eternal libre software projects.",
+        "open source": "My contributions to my many, varied, ever-changing, and eternal OpenSource software projects.",
         "math": "Things about the language of mathematics",
         "programming": "computational languages of machines",
         "datascience": "The science of data analytics"
